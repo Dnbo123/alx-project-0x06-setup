@@ -6,7 +6,7 @@ import { CountProvider } from "@/context/CountContext";
 export default function App({ Component, pageProps }: AppProps) {
   return (
 
-    
+
     <CountProvider>
       <Layout>
         <Component {...pageProps} />
